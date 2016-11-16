@@ -40,6 +40,8 @@
 <li><a href="#planificacion">Planificación</a></li>
 <li><a href="#aplicaciones">Aplicaciones</a></li>
 <li><a href="#lenguajes">Lenguajes</a></li>
+<li><a href="#presentacion">Presentación</a></li>
+<li><a href="#taller">Taller</a></li>
 </ol>
 
 <div class="text-justify">
@@ -160,50 +162,8 @@ Es importante resaltar que los procesos nunca corren en paralelo en el procesado
 
 <p>Como podemos hacer para que los filósofos no se mueran de hambre?. Interesante no, el problema en sí tiene muchas soluciones pero solo vamos a enunciar una: Un filosofo toma los dos tenedores y se los demas hacen una cola alrededor de la mesa para saber cual es el siguiente hasta que todos acaban.</p>
 
-<h1>
-<a id="metodos-de-sincronización" class="anchor" href="#metodos-de-sincronizaci%C3%B3n" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Metodos de Sincronización</h1>
-
-<p>Hay muchos metodos de sincronizacion vamos a mostrar los mas importantes.</p>
-
-<ul>
-<li>Semaforos</li>
-<li>Tuberias</li>
-<li>Paso de mensaje</li>
-</ul>
-
-<h2>
-<a id="semaforos" class="anchor" href="#semaforos" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Semaforos</h2>
-
-<p>Son variables que almacenan un valor entero y en la que hay tres operaciones básicas: inicialización, incremento y decremento. Las tres operaciones son atómicas, lo que significa que durante la ejecución nunca se va a interrumpir el proceso. Con estas operaciones constituyen unos métodos para permitir o restringir el acceso a la sección crítica.</p>
-
-<ul>
-<li>Se inicializa con un valor entero mayor que cero generalmente uno</li>
-<li>Se hace un decremento. Después se evalúa si el valor del semáforo es menor o igual a cero esta función se bloquea</li>
-<li>Se hace un incremento. Si el valor del semáforo es mayor que cero, el proceso bloqueado será desbloqueado</li>
-</ul>
-
-<h2>
-<a id="mutex" class="anchor" href="#mutex" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Mutex</h2>
-
-<p>Es la implementación a más alto nivel teniendo en cuenta el software y hardware se suele utilizar:</p>
-
-<ul>
-<li>Semaforos</li>
-<li>Monitores</li>
-<li>Paso de mensajes</li>
-<li>Pipes</li>
-<li>Bloqueos recursivo</li>
-<li>Bloqueos temporizados</li>
-</ul>
-
-<p>Se suelen utilizar los siguientes métodos generales:</p>
-
-<ul>
-<li>Iniciar Mutex</li>
-<li>Bloquear seccion critica</li>
-<li>Desbloquear seccion critica</li>
-<li>Destruir Mutex</li>
-</ul>
+<h2>Métodos de sincronización y comunicación</h2>
+<p>Los métodos de sincronización y comunicación se explican de mejor forma mediante el uso del notebook, pues los temas se explican con el uso python y C++.<a href="https://github.com/ferestrepoca/paradigmas-de-programacion/tree/gh-pages/progconcurrente/concurrente_teoria/notebook/ProgConcurrente.ipynb">Notebook</a></p>
 
 <h2>
 <a id="ventajas" class="anchor" href="#ventajas" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Ventajas</h2>
@@ -496,6 +456,16 @@ vector&lt;<span class="pl-k">double</span>&gt; <span class="pl-en">valorCal</spa
 <blockquote>
 <p>EL valor de pi es:    3.14159265258921038821</p>
 </blockquote>
+
+<h1>
+<a id="presentacion" class="anchor" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Presentación</h1>
+<a href="https://drive.google.com/open?id=0B_B-BoNU4ZaIOTNrUWlWXzBjNmc">Enlace</a>
+ 
+<h1>
+<a id="taller" class="anchor" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Taller</h1>
+<a href="https://drive.google.com/open?id=0B_B-BoNU4ZaIaVZKY3hTTlc2NE0">Enlace</a> 
+
+
 
 <h1>
 <a id="referencias" class="anchor" href="#referencias" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Referencias</h1>
